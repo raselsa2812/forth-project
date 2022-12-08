@@ -1,0 +1,260 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+.d-flex {
+    display: flex;
+}
+
+.collapse ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    line-height: 21px;
+    margin: 0px 17px;
+}
+
+.collapse ul li {
+    position: relative;
+}
+
+.collapse ul li::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    left: 0;
+    top: 95%;
+    transition: 1s;
+}
+
+.collapse ul li:hover::after {
+    width: 100%;
+}
+
+.collapse ul {
+    border-bottom: 1px solid white;
+
+}
+
+
+.carousel-item {
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.banner-section h1 {
+    font-size: 65px;
+    line-height: 71px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.banner-section p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.banner-section p::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.banner-section p::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.manubar-section {
+    z-index: 9;
+    top: 40px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/left.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/right.png");
+}
+
+.about-sec .about-parents .about-title h1 {
+    text-transform: capitalize;
+    font-size: 49px;
+    line-height: 55px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.about-sec .about-parents .about-title {
+    position: relative;
+}
+
+.about-sec .about-parents .about-title img {
+    position: absolute;
+    transform: translate(643px, 50%);
+    justify-content: center;
+}
+
+.about-sec .about-parents .about-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #8e7037;
+    top: 163%;
+    right: 44%;
+}
+
+.about-sec .about-parents .about-title::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #8e7037;
+    top: 163%;
+    left: 44.8%;
+}
+
+.about-sec .about-parents .about-p {
+    margin-top: 100px;
+}
+
+.about-sec .about-parents .about-p p {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.about-sec .about-parents .about-btn .border {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8e7037;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-sec .about-parents .about-btn .border:hover {
+    background: #8e7037;
+    color: #fff;
+    border: none;
+}
+
+.about-img img:hover {
+    opacity: .6;
+}
+
+.friendly-parents {
+    align-items: center;
+}
+
+.friendly-sec {
+    position: relative;
+}
+
+.friendly-sec::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #8e7037;
+    top: 6px;
+    left: 0;
+}
+
+.friendly-des {
+    transform: translateX(17%);
+}
+
+.friendly-des .Toyota {
+    color: #8e7037;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.friendly-des h3 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.friendly-des p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    max-width: 59%;
+    text-align: justify;
+}
+
+.friendly-des .friend-btn .border {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8e7037;
+    font-family: 'Poppins', sans-serif;
+}
+
+.friendly-des .friend-btn .border:hover {
+    background: #8e7037;
+    color: #fff;
+    border: none;
+}
+
+.gallary {
+    background-color: #8e7037;
+}
+
+.gallary .gallary-tttle h1 {
+    font-size: 48px;
+    line-height: 54px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.card img:hover {
+    opacity: .5;
+}
+
+.footer-icon {
+    font-size: 20px;
+}
+
+.footer-icon a {
+    margin-right: 10px;
+}
+
+.footer-loc p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.footer-tel a {
+    text-decoration: none;
+}
+
+.text-white {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
